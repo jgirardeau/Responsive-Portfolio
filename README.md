@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-homework2b ut code camp
+# Basic-Portfolio
+my portfolio
