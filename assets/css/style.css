@@ -12,12 +12,12 @@ body {
 
 /* general */
 
-.container {
+/*.container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
   clear: both;
-}
+}*/
 
 h1,
 h2,
@@ -45,10 +45,7 @@ h1 {
   border-bottom: 3px solid #dddddd;
 }
 
-h2,
-h3 {
-  font-size: 22px;
-}
+
 
 /* header */
 
@@ -62,6 +59,7 @@ h3 {
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
 }
+
 
 #logo {
   float: left;
@@ -124,18 +122,207 @@ h3, h2 {
   /*min-height: calc(100vh - 70px);*/
 }
 
-.main-section {
+@media only screen and (min-width: 0px) {
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    font-size: 8px;
+    line-height: 18px;
+  }
+  .auth-image {
   float: left;
+  width: 25px;
+  height:25px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+.container {
   width: 100%;
-  max-width: 650px;
-  padding: 30px;
-  margin: 0 0 40px;
-  background: #ffffff;
-  border: 1px solid #dddddd;
+  max-width: 500px;
+  margin: 0 auto;
+  clear: both;
+ font-size: 8px;
+    line-height: 18px;
+}
+.work {
+  position: relative;
+  float: left;
+  width: 150px;
+  margin: 10px 0 15px;
+  overflow: auto;
+}
+h2,
+h3 {
+  font-size: 8px;
 }
 
-/* portfolio page */
+.side-bar {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 170px;
+    float:right;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
 
+.connect-image{
+  width:16px;
+  height:16px;
+}
+
+
+}
+
+@media only screen and (min-width: 640px) {
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 610px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .auth-image {
+  float: left;
+  width: 50px;
+  height:50px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  clear: both;
+      font-size: 10px;
+    line-height: 20px;
+}
+.work {
+  position: relative;
+  float: left;
+  width: 200px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+h2,
+h3 {
+  font-size: 12px;
+}
+
+.side-bar {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 170px;
+    float:right;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.connect-image{
+  width:32px;
+  height:32px;
+}
+
+
+}
+
+@media only screen and (min-width: 768px) {
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 630px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .auth-image {
+  float: left;
+  width: 75px;
+  height:75px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+      font-size: 14px;
+    line-height: 24px;
+}
+.work {
+  position: relative;
+  float: left;
+  width: 200px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+h2,
+h3 {
+  font-size: 14px;
+}
+
+.side-bar {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 170px;
+    float:right;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.connect-image{
+  width:32px;
+  height:32px;
+}
+
+}
+
+@media only screen and (min-width: 980px) {
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    font-size: 18px;
+    line-height: 34px;
+  }
+
+  .auth-image {
+  float: left;
+  width: 100px;
+  height:100px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+      font-size: 18px;
+    line-height: 34px;
+}
 .work {
   position: relative;
   float: left;
@@ -143,6 +330,31 @@ h3, h2 {
   margin: 20px 0 25px;
   overflow: auto;
 }
+h2,
+h3 {
+  font-size: 22px;
+}
+
+.side-bar {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 270px;
+    float:right;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.connect-image{
+  width:64px;
+  height:64px;
+}
+}
+
+
+
+/* portfolio page */
+
+
 
 .work:nth-child(even) {
   margin-right: 40px;
@@ -168,13 +380,7 @@ h3, h2 {
   border-bottom: 0;
 }
 
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-}
+
 
 /* contact page */
 
@@ -216,12 +422,6 @@ input[type=submit] {
   border: 0 none;
 }
 
-.side-bar {
-    background: #fff;
-    padding: 30px;
-    width: 100%;
-    max-width: 270px;
-    float:right;
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
-}
+
+
+
